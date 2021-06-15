@@ -1,0 +1,11 @@
+body{
+    background-image: url(./assets/darkness.png);
+}
+.shade{
+    background-color: lightgray;
+    height: 50px;
+    border-radius: 10px;
+}
+.content{
+    border-radius: 10px;
+}
