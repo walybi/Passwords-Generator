@@ -43,34 +43,33 @@
         <div class="container mb-5">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mx-auto bg-light py-4 content">
-                    <input class="form-control form-control-lg" type="text" aria-label=".form-control-lg example" style="height: 80px;" readonly>
+                    <input class="form-control form-control-lg" type="text" aria-label=".form-control-lg example" style="height: 80px;" id="displayWindow" readonly>
                     <hr>
-                    <div>Lenght: 8</div>
+                    <div id="lenghtValue">Lenght: 8</div>
                     <div class="bg-secondary d-flex justify-content-center align-items-center px-2 mb-2 shade">
-                    <span class="pe-2">8</span><input type="range" class="form-range" min="8" max="64" step="1"id="slider" ><span class="ps-2">64</span>
+                    <span class="pe-2">8</span><input type="range" class="form-range" min="8" max="64" step="1" value="8" id="sliderValue" ><span class="ps-2">64</span>
                     </div>
                     <div>Criteria</div>
                     <div class="form-check form-switch d-flex justify-content-between align-items-center px-2 mb-2 shade">
                         <span>lowercase</span>
-                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                        <input class="form-check-input" type="checkbox" id="lowercase">
                     </div>
                     <div class="form-check form-switch d-flex justify-content-between align-items-center px-2 mb-2 shade">
                         <span>Uppercase</span>
-                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                        <input class="form-check-input" type="checkbox" id="uppercase">
                     </div>
                     <div class="form-check form-switch d-flex justify-content-between align-items-center px-2 mb-2 shade">
                         <span>Numbers</span>
-                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                        <input class="form-check-input" type="checkbox" id="number">
                     </div>
                     <div class="form-check form-switch d-flex justify-content-between align-items-center px-2 mb-2 shade">
                         <span>Symbols</span>
-                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                        <input class="form-check-input" type="checkbox" id="symbol">
                     </div>
                     <div class="d-grid gap-2 col-6 mx-auto">
-                        <button class="btn btn-secondary rounded-pill" type="button">Generate Password</button>
-                        <button class="btn btn-secondary rounded-pill" type="button">Copy to Clipboard</button>
-                      </div>
-
+                        <button class="btn btn-secondary rounded-pill" id="generatebtn" type="button">Generate Password</button>
+                        <button class="btn btn-secondary rounded-pill" id="copybtn" type="button">Copy to Clipboard</button>
+                    </div>
                 </div>
             </div>
 
