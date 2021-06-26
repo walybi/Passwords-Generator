@@ -51,7 +51,7 @@ display.value = password;
 copyPassword.onclick = function(){
     document.getElementById("displayScreen").select();
     document.execCommand("copy");
-    alert("copied successfully ");
+    alert("Copied Successfully ");
 }
 
 
