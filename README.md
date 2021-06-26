@@ -12,10 +12,10 @@
 - [License](#License)
 
                             ## Description
-This  program generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code.
+This  program generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by a JavaScript code.
 
                             ## Motivation
-As a web developer, I want a portfolio to showcase my applications to potential employers and clients.
+For companies that handle large amounts of sensitive data, weak passwords can pose a real security threat. An application that can generate strong passwords quickly and effortlessly saves employees time and ensures secure access to data.
 
                             ## Usage            
 * In the navigation bar, the button Home will reset the program to default.
@@ -38,13 +38,10 @@ Project is created using :
 ![weather dashboard](./assets/Passwords-Generator.gif)
 
                             ## Author
-
 - Issouf Kiema
 
                             ## License
-
 - Open Source
 
                             ## links
-
 - [Deployed link](https://walybi.github.io/Passwords-Generator/)
